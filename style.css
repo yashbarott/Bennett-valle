@@ -286,8 +286,9 @@ ul {
 .philosophy-header {
     margin-bottom: clamp(3rem, 6vw, 5rem);
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
 }
 
 .philosophy-header h2 {
